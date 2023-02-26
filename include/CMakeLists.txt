@@ -1,0 +1,11 @@
+add_library(Math SHARED Math.cpp ${CMAKE_INCLUDE_PATH})
+add_library(MatrixMxN SHARED MatrixMxN.cpp ${CMAKE_INCLUDE_PATH})
+add_library(MatrixNxN SHARED MatrixNxN.cpp ${CMAKE_INCLUDE_PATH})
+add_library(Vec2D SHARED Vec2D.cpp ${CMAKE_INCLUDE_PATH})
+add_library(Vec3D SHARED Vec3D.cpp ${CMAKE_INCLUDE_PATH})
+
+target_include_directories(Math PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(MatrixMxN PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(MatrixNxN PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(Vec2D PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(Vec3D PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
