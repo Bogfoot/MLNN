@@ -11,7 +11,7 @@ project(
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-add_definitions("-Wall -lstdc++fs -O3")
+add_definitions("-Wall -lstdc++fs -O1")
 # ##############################################################################
 # Modules and scripts   ##
 # ##############################################################################
