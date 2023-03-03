@@ -43,5 +43,6 @@ public:
   iterator begin() { return iterator(*this, 0, 0); }
   iterator end() { return iterator(*this, N, 0); }
   int size();
+  void Print();
   void PrintNxN();
 };
