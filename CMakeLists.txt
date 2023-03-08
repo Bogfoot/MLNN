@@ -7,7 +7,7 @@ project(
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-add_definitions("-Wall -lstdc++fs -O1")
+add_definitions("-Wall -lstdc++fs -O3")
 # ##############################################################################
 # Modules and scripts   ##
 # ##############################################################################
@@ -18,7 +18,7 @@ include(InstallRequiredSystemLibraries)
 include(CMakePackageConfigHelpers)
 
 add_subdirectory(include)
+# add_subdirectory(source)
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} PRIVATE Vec3D Vec2D Math MatrixNxN
                                               MatrixMxN)
-# target_compile_features(${PROJECT_NAME} PRIVATE lstdc++fs)

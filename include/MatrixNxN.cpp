@@ -1,4 +1,4 @@
-#include "MatrixNxN.h"
+#include "../include/MatrixNxN.h"
 
 // The MatrixNxN class declaration
 std::vector<double> &MatrixNxN::operator[](int i) { return data[i]; }

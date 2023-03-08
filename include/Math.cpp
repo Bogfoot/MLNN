@@ -1,4 +1,4 @@
-#include "Math.h"
+#include "../include/Math.h"
 
 template <typename T, std::size_t SIZE>
 double Math::sum(std::array<T, SIZE> &n) {

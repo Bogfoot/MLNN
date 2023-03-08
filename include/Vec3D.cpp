@@ -1,4 +1,4 @@
-#include "Vec3D.h"
+#include "../include/Vec3D.h"
 
 // 3D vector class
 Vec3D::Vec3D(double _x_pos, double _y_pos, double _z_pos) {

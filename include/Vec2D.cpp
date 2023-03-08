@@ -1,4 +1,4 @@
-#include "Vec2D.h"
+#include "../include/Vec2D.h"
 
 // 2D vector class
 Vec2D::Vec2D(double _x_pos, double _y_pos) {
